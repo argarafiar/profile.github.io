@@ -1,0 +1,91 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+.bg {
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(gunung2.jpg);
+    background-size: 100%;
+    height: 750px;
+}
+@font-face {
+    font-family: 'theBlacklist';
+    src: url(/font/TheBlacklist/TheBlacklist.ttf);
+}
+@font-face {
+    font-family: 'sofiapro';
+    src: url(/font/SOFIAPROSOFTBOLD/SOFIAPROSOFTBOLD.ttf);
+}
+header {
+    color: whitesmoke;
+    font-family: 'theBlacklist';
+    font-size: 50px;
+    text-align: center;
+    position: relative; top: 20px;
+}
+.container {
+    display: flex;
+    align-content: center;
+    position: relative; top: -20px;
+}
+.profile {
+    color: whitesmoke;
+    font-family: serif;
+    font-size: 40px;
+}
+img {
+    border-radius: 50%;
+    position: relative; top: 70px;
+}
+.nama {
+    color: whitesmoke;
+    position: relative; top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+.kerja {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffb830;
+    letter-spacing: 5px;
+    position: relative; top: 20px;
+}
+.box {
+    width: 400px;
+    height: 400px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.425);
+    position: relative; left: 120px; top: 120px;
+}
+.text {
+    width: 400px;
+    height: 400px;
+    position: relative; left: 300px; top: 90px;
+}
+.profile_isi {
+    color: whitesmoke;
+    font-family: 'sofiapro';
+    font-size: 17px;
+    text-align: left;
+    position: relative; left: 0px; top: -10px;
+    line-height: 30px;
+}
+.line {
+    width: 600px;
+    border-style: dashed;
+    border-color: #ffb830;
+    position: relative; top: -20px;
+    border-radius: 10px;
+}
+.isi_motto {
+    color: whitesmoke;
+    font-family: 'sofiapro';
+    position: relative; top: -20px;
+    font-size: 17px;
+}
+.footer {
+    color: whitesmoke;
+    background-color: rgb(78, 78, 255);
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    margin: 0px;
+}
