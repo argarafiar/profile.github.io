@@ -83,7 +83,15 @@ img {
     border-color: rgba(255, 255, 255, 0.425);
     position: relative; margin-top: 70px;
 }
-.text {
+.motto {
+    color: whitesmoke;
+    position: relative;
+    margin-top: 20px;
+    font-family: 'sofiapro';
+    font-size: 20px;
+    padding: 20px;
+}
+/*.text {
     width: 400px;
     height: 400px;
     position: relative; left: 300px; top: 90px;
@@ -108,7 +116,7 @@ img {
     font-family: 'sofiapro';
     position: relative; top: -20px;
     font-size: 17px;
-}
+}*/
 .about {
     padding: 100px;
 }
