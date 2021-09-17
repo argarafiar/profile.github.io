@@ -77,11 +77,11 @@ img {
     position: relative; top: 20px;
 }
 .box {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     border-style: solid;
     border-color: rgba(255, 255, 255, 0.425);
-    position: relative; left: 120px; top: 120px;
+    position: relative; margin-top: 70px;
 }
 .text {
     width: 400px;
