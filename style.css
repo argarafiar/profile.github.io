@@ -4,6 +4,7 @@ body, html {
 }
 nav {
     position: relative;
+    display: flex;
     width: 100%;
     height: 60px;
     background-color: #fff;
@@ -14,7 +15,7 @@ nav ul {
     margin: 0;
     top: 20px;
     float: right;
-    right: 10%;
+    left: 50%;
 }
 nav ul li {
     float: left;
@@ -43,6 +44,11 @@ nav ul li a:hover {
     font-family: 'sofiapro';
     src: url(/font/SOFIAPROSOFTBOLD/SOFIAPROSOFTBOLD.ttf);
 }
+@font-face {
+    font-family: 'cookie';
+    src: url(font/cookie/Cookie-Regular.ttf);
+}
+
 header {
     color: whitesmoke;
     font-family: 'theBlacklist';
@@ -90,32 +96,6 @@ header {
     font-size: 17px;
     padding: 20px;
 }
-/*.text {
-    width: 400px;
-    height: 400px;
-    position: relative; left: 300px; top: 90px;
-}
-.profile_isi {
-    color: whitesmoke;
-    font-family: 'sofiapro';
-    font-size: 17px;
-    text-align: left;
-    position: relative; left: 0px; top: -10px;
-    line-height: 30px;
-}
-.line {
-    width: 600px;
-    border-style: dashed;
-    border-color: #ffb830;
-    position: relative; top: -20px;
-    border-radius: 10px;
-}
-.isi_motto {
-    color: whitesmoke;
-    font-family: 'sofiapro';
-    position: relative; top: -20px;
-    font-size: 17px;
-}*/
 .container {
     display: flex;
     align-content: center;
@@ -145,6 +125,25 @@ header {
     font-family: 'sofiapro';
     line-height: 25px;
     width: 600px;
+}
+.table {
+    text-align: center;
+    border-collapse: collapse;
+}
+.table tr:nth-child(even) {
+    background-color: rgb(219, 219, 219);
+}
+table th {
+    border: 2px solid;
+    border-color: black;
+    color: teal;
+    padding: 15px 20px;
+    font-size: 20px;
+}
+table td {
+    border: 2px solid;
+    border-color: black;
+    padding: 15px 20px;
 }
 .footer {
     color: teal;
