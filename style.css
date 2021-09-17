@@ -2,6 +2,34 @@ body, html {
     margin: 0px;
     padding: 0px;
 }
+nav {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: -1px, -7px, 20px, 0px #888;
+}
+nav ul {
+    position: relative;
+    margin: 0;
+    top: 20px;
+    float: right;
+    right: 10%;
+}
+nav ul li {
+    float: left;
+    display: block;
+    margin: 0px 15px 0px 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: teal;
+    font-family: 'halvetica', sans-serif;
+    font-size: 17px;
+}
+nav ul li a:hover {
+    color: turquoise;
+}
 .bg {
     background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(gunung2.jpg);
     background-size: 100%;
@@ -81,9 +109,15 @@ img {
     position: relative; top: -20px;
     font-size: 17px;
 }
+.about {
+    padding: 100px;
+}
+.text-about {
+    font-size: 20px;
+}
 .footer {
-    color: whitesmoke;
-    background-color: rgb(78, 78, 255);
+    color: teal;
+    background-color: whitesmoke;
     text-align: center;
     font-size: 15px;
     padding: 10px;
