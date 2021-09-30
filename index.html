@@ -18,13 +18,13 @@
             <li><a href="#home">HOME</a></li>
             <li><a href="#profile">PROFILE</a></li>
             <li><a href="#jadwal">JADWAL</a></li>
-            <li><a href="#gallery">GALLERY</a></li>
+            <li><a href="#portofolio">PORTOFOLIO</a></li>
             <li><a href="#contact">CONTACT</a></li>
         </ul>
     </nav>
 
 <!--=======================================HALAMAN HOME========================================-->
-    <div class="jumbotron text-center">
+    <section class="jumbotron text-center">
         <div class="bg" id="home">
             <div class="p-5 text-white">
                 <img src="/assets/aku3.jpg" style="border-radius: 50%; width: 200px; border: #666 solid;">
@@ -32,12 +32,12 @@
                 <p style="font-size: 20px;">Student | Designer</p>
             </div>
         </div>
-    </div>
+    </section>
 
     <div style="padding: 50px;"></div>
 
     <!--=======================================HALAMAN PROFILE========================================-->
-        <div class="container" id="profile">
+        <section class="container" id="profile">
             <div class="row">
                 <div class="col-xs-12">
                     <h1 class="text-center" style="color: teal;">Profile</h1>
@@ -48,15 +48,17 @@
             </div>
 
             <div class="row">
-                <div class="col-md-1"></div>
+                <!--<div class="col-md-1"></div>-->
 
-                <div class="col-md-5">
-                    <img src="/assets/aku.jpeg" style="border-radius: 50%; padding-top: 50px;">
+                <div class="col-md-6">
+                    <center>
+                        <img src="/assets/aku.jpeg" style="border-radius: 50%; padding-top: 50px;">
+                    </center>
                 </div>
 
-                <div class="col-md-1"></div>
+                <!--<div class="col-md-1"></div>-->
 
-                <div class="col-md-5">
+                <div class="col-md-6">
                     <p class="text-left about-a">
                         NRP <span style="padding-left: 70px;">: 3121600010<br></span>
                         Class <span style="padding-left: 59px;">: D4 Informatic Technology <br></span>
@@ -64,7 +66,7 @@
                         E-mail <span style="padding-left: 48px;">: argarafiar@gmail.com <br></span>
                         Phone <span style="padding-left: 51px;">: 089687630364 <br></span>
                     </p>
-                    <div style="width: 500px; border: teal dashed; border-radius: 10px;"></div>
+                    <div style="width: 450px; border: teal dashed; border-radius: 10px;"></div>
                     <h2 style="padding-top: 5px;">About me</h2>
                     <p class="about-b">
                         Hallo perkenalkan nama saya Arga Rafi Inal Murtadho,
@@ -75,11 +77,15 @@
                     </p>
                 </div>
             </div>
-        </div>
+        </section>
 
         <div style="padding: 50px;"></div>
         <!--=======================================HALAMAN JADWAL========================================-->
-        <h1 id="jadwal" style="text-align: center; color: teal; padding-top: 20px;">JADWAL</h1>
+        <h1 id="jadwal" style="text-align: center; color: teal; padding-top: 20px;">Jadwal</h1>
+        <center>
+            <div style="width: 250px; border: teal solid;"></div>
+        </center>
+        <div style="padding: 10px;"></div>
         <center>
             <table class="table">
                 <thead>
@@ -162,23 +168,52 @@
                 </tbody>
             </table>
         </center>
-
+        
         <div style="padding: 70px;"></div>
         <!--=======================================HALAMAN GALLERY========================================-->
-        <h1 id="gallery" style="text-align: center; color: teal; padding: 30px;">GALLERY</h1>
-        <div class="isi-gallery">
-            <a href="assets/layer/foto-gunung.html">
-                <img class="img-gunung" src="assets/file-gunung/WhatsApp Image 2021-09-17 at 17.09.32.jpeg" title="Klik untuk melihat album foto gunung">
-            </a>
-            <a href="assets/layer/foto-saya.html">
-                <img class="img-dolen" src="assets/file-dolen/WhatsApp Image 2021-09-17 at 17.14.51 (2).jpeg" title="Klik untuk melihat album foto saya">
-            </a>
-            <a href="assets/layer/hasil-desain.html">
-                <img class="img-desain" src="assets/file-desain/desain-1.jpeg" title="Klik untuk melihat album hasil desain">
-            </a>
-        </div>
+        <section class="Portofolio" id="portofolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1 class="text-center" style="color: teal;">Portofolio</h1>
+                        <center>
+                            <div style="width: 250px; border: teal solid;"></div>
+                        </center>
+                    </div>
+                </div>
+                <div style="padding: 10px;"></div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="assets/layer/foto-gunung.html">
+                            <center>
+                                <img src="/assets/file-gunung/WhatsApp Image 2021-09-17 at 17.09.32.jpeg" title="Klik untuk melihat album foto gunung" style="border-radius: 50%;">
+                            </center>
+                        </a>
+                        <p style="text-align: center; font-family: 'sofiapro';">Album Gunung</p>
+                    </div>
 
-        <div style="padding: 50px;"></div>
+                    <div class="col-md-4">
+                        <a href="assets/layer/foto-saya.html">
+                            <center>
+                                <img src="assets/file-dolen/WhatsApp Image 2021-09-17 at 17.14.51 (2).jpeg" title="Klik untuk melihat album foto saya" style="border-radius: 50%;">
+                            </center>
+                        </a>
+                        <p style="text-align: center; font-family: 'sofiapro';">Album Saya</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a href="assets/layer/hasil-desain.html">
+                            <center>
+                                <img src="assets/file-desain/desain-1.jpeg" title="Klik untuk melihat album hasil desain" style="border-radius: 50%;">
+                            </center>
+                        </a>
+                        <p style="text-align: center; font-family: 'sofiapro';">Album Desain</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div style="padding: 70px;"></div>
         <!--=======================================HALAMAN GALLERY========================================-->
         <div>
             <h1 id="contact" style="text-align: center; color: teal; padding: 30px;">Contact us</h1>
@@ -196,6 +231,22 @@
     </footer>
 </body>
 </html>
+
+<!--<h1 id="gallery" style="text-align: center; color: teal; padding: 30px;">GALLERY</h1>
+        <div class="isi-gallery">
+            <a href="assets/layer/foto-gunung.html">
+                <img class="img-gunung" src="assets/file-gunung/WhatsApp Image 2021-09-17 at 17.09.32.jpeg" title="Klik untuk melihat album foto gunung">
+            </a>
+            <a href="assets/layer/foto-saya.html">
+                <img class="img-dolen" src="assets/file-dolen/WhatsApp Image 2021-09-17 at 17.14.51 (2).jpeg" title="Klik untuk melihat album foto saya">
+            </a>
+            <a href="assets/layer/hasil-desain.html">
+                <img class="img-desain" src="assets/file-desain/desain-1.jpeg" title="Klik untuk melihat album hasil desain">
+            </a>
+        </div>
+
+        <div style="padding: 50px;"></div>
+    -->
 
 <!--     <div class="bg">
         <header id="home">Welcome to my Profile</header>

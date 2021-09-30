@@ -57,43 +57,17 @@ header {
     text-align: center;
     position: relative; top: 20px;
 }
-.foto-profile {
-    border-radius: 50%;
-}
-.profile {
-    color: whitesmoke;
-    font-family: serif;
-    font-size: 40px;
-}
-.box {
-    width: 450px;
-    height: 450px;
-    border-style: solid;
-    border-color: rgba(255, 255, 255, 0.425);
-    position: relative; margin-top: 70px;
-}
-.text-about {
-    position: relative;
-    left: 200px;
-}
 .about-a {
     font-size: 20px;
     font-family: 'sofiapro';
     line-height: 40px;
     padding-top: 50px;
 }
-.line {
-    width: 550px;
-    border-style: dashed;
-    border-color: teal;
-    position: relative; top: 0px;
-    border-radius: 10px;
-}
 .about-b {
     font-size: 20px;
     font-family: 'sofiapro';
     line-height: 25px;
-    width: 500px;
+    width: 450px;
     text-align: justify;
 }
 .table {
@@ -114,13 +88,6 @@ table td {
     border: 2px solid;
     border-color: black;
     padding: 15px 20px;
-}
-.isi-gallery {
-    display: flex;
-}
-.img-gunung, .img-dolen, .img-desain {
-    border-radius: 50%;
-    padding: 25px;
 }
 .contact {
     width: 600px;
