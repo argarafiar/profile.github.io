@@ -2,6 +2,9 @@ body, html {
     margin: 0px;
     padding: 0px;
 }
+section {
+    min-height: 600px;
+}
 nav {
     position: relative;
     width: 100%;
