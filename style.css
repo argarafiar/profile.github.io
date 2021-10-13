@@ -46,7 +46,7 @@ nav ul li a:hover {
 }
 @font-face {
     font-family: 'sofiapro';
-    src: url(/font/SOFIAPROSOFTBOLD/SOFIAPROSOFTBOLD.ttf);
+    src: url(font/SOFIAPROSOFTBOLD/SOFIAPROSOFTBOLD.ttf);
 }
 @font-face {
     font-family: 'cookie';
